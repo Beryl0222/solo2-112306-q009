@@ -1,0 +1,6 @@
+# 构建可安装的 Python wheel 所用工具。
+build==1.2.2.post1
+packaging==24.2
+pyproject-hooks==1.2.0
+setuptools==75.8.0
+wheel==0.45.1
