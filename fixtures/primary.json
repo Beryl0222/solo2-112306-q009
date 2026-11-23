@@ -4,58 +4,79 @@
     {
       "id": "h1",
       "vector": [
-        0.4,
-        0.2,
-        0.8
+        1.0,
+        0,
+        1.0,
+        0
       ],
       "order": 0
     },
     {
       "id": "h2",
       "vector": [
-        0.1,
-        0.7,
-        0.5
+        1.0,
+        0,
+        1.0,
+        0
       ],
       "order": 1
+    },
+    {
+      "id": "h3",
+      "vector": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "order": 2
     }
   ],
   "heads": [
     {
       "id": "grip",
       "channels": [
-        0,
-        1
+        0
       ],
-      "valid": [
-        true,
-        true
-      ],
-      "precision": "fp16"
+      "side": [],
+      "precision": "float16",
+      "tol": 0.004
     },
     {
       "id": "wrist",
       "channels": [
-        1,
-        2
+        0,
+        1
       ],
-      "valid": [
-        true,
-        false
+      "side": [
+        3
       ],
-      "precision": "fp32"
+      "precision": "float32",
+      "tol": 4e-05
+    },
+    {
+      "id": "wrist-local",
+      "channels": [
+        1
+      ],
+      "side": [],
+      "precision": "float32",
+      "tol": 4e-05
     }
   ],
   "input": [
     [
-      0.2,
+      0.22,
       -0.4,
-      0.7
+      0.7,
+      0.5
     ],
     [
       0.5,
       0.1,
-      -0.2
+      null,
+      0.8
     ]
-  ]
+  ],
+  "capture": "capture-9-a"
 }
