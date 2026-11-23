@@ -1,0 +1,61 @@
+{
+  "weight": "shared-w7",
+  "factors": [
+    {
+      "id": "h1",
+      "vector": [
+        0.4,
+        0.2,
+        0.8
+      ],
+      "order": 0
+    },
+    {
+      "id": "h2",
+      "vector": [
+        0.1,
+        0.7,
+        0.5
+      ],
+      "order": 1
+    }
+  ],
+  "heads": [
+    {
+      "id": "grip",
+      "channels": [
+        0,
+        1
+      ],
+      "valid": [
+        true,
+        true
+      ],
+      "precision": "fp16"
+    },
+    {
+      "id": "wrist",
+      "channels": [
+        1,
+        2
+      ],
+      "valid": [
+        true,
+        false
+      ],
+      "precision": "fp32"
+    }
+  ],
+  "input": [
+    [
+      0.2,
+      -0.4,
+      0.7
+    ],
+    [
+      0.5,
+      0.1,
+      -0.2
+    ]
+  ]
+}

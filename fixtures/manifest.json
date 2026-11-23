@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "fixture": "orthogonal_mix",
+  "synthetic": true,
+  "records": [
+    "primary.json",
+    "revision.json"
+  ]
+}
